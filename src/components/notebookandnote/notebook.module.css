@@ -1,0 +1,166 @@
+.notebookcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 640px;
+    background-image: linear-gradient(to right, black, #002f45);
+    color: rgb(220, 216, 216);
+    padding: 2px 0;
+}
+
+
+.left {
+    padding: 10px;
+    width: 20%;
+    border-right: 2px groove rgb(220, 216, 216);
+}
+
+.searchbox {
+    padding: 10px 0;
+}
+
+.searchbox span {
+    margin-left: -30px;
+}
+
+.searchbox input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: rgb(220, 216, 216);
+    border: 2px solid rgb(83, 83, 83);
+    border-radius: 20px;
+    font-size: 1.1em;
+    padding: 10px 40px 10px 20px;
+}
+
+.sortby {
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: #002f45;
+    height: 40px;
+    overflow: hidden;
+    transition: all 0.2s ease-in;
+    font-size: 1.1rem;
+}
+
+.sortbtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sortbtn:hover {
+    background-color: #00557c;
+}
+
+.sortbtn span {
+    transition: all 0.2s ease-in;
+}
+
+.sorttools {
+    border-radius: 10px;
+}
+
+.sorttools div {
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.sorttools div:hover {
+    background-color: #00557c;
+}
+
+.plusicon {
+    margin-top: 20px;
+}
+
+.plusicon button {
+    width: 50%;
+    border-radius: 30px;
+    padding-top: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to top, black, #002f45);
+    color: rgb(220, 216, 216);
+    border: 1px groove rgb(220, 216, 216);
+}
+
+.plusicon button:hover {
+    background-image: none;
+    background-color: #00557c;
+}
+
+.addnotebook {
+    margin-top: 20px;
+    background-color: #002f45;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.addnotebook input {
+    width: 100%;
+    outline: none;
+    background: transparent;
+    color: rgb(220, 216, 216);
+    border: 1px solid rgb(220, 216, 216);
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 8px 20px;
+    margin: 10px 0;
+}
+
+.addnotebook input:focus {
+    background-color: #00557c;
+}
+
+.addnotebook button {
+    height: 30px;
+    width: 45%;
+    background-image: none;
+    background-color: #002f45;
+    border-radius: 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    color: rgb(220, 216, 216);
+    border: 1px groove rgb(220, 216, 216);
+    margin-top: 15px;
+}
+
+.gotonotebook {
+    height: 35px;
+    width: 45%;
+    background-color: #002f45;
+    border-radius: 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    color: rgb(220, 216, 216);
+    border: 1px groove rgb(220, 216, 216);
+    margin-top: 15px;
+}
+
+.gotonotebook:hover{
+    background-color: #00557c;
+}
+
+.right {
+    width: 80%;
+    padding: 10px;
+}
+
+.title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.notebooks {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

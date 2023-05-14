@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    min-height: 640px;
+    background-image: linear-gradient(to bottom, #002f45, black);
+    color: rgb(220, 216, 216);
+    padding: 10px;
+    display: flex;
+    justify-content: center
+}
+
+.usergreet {
+    margin-top: 20px;
+}
+
+.usergreet h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    word-break: break-all;
+}
+
+.usergreet h1 span {
+    color: rgba(255, 255, 0, 0.795);
+}
+
+.buttons{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.buttons button{
+    transition: all 0.3s;
+    border: none;
+    background-color: #004667;
+    padding: 15px;
+    cursor: pointer;
+    color: rgb(220, 216, 216);
+    font-size: 1.3rem;
+    width: 16em;
+    text-align: left;
+    box-shadow: -5px -5px rgb(0, 0, 0);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.buttons button:hover{
+    background-color: #002f45;
+    transform: translateX(20px);
+}

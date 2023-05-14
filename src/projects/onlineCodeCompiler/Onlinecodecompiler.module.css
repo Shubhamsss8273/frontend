@@ -1,0 +1,98 @@
+.container {
+    min-height: 640px;
+    background-color: rgb(61, 61, 61);
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(220, 216, 216);
+    padding: 5px;
+}
+
+.languagelist {
+    padding: 7px 2px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.listitem {
+    padding: 7px 0;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.listitem input{
+    cursor: pointer;
+}
+
+.listitem label {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.codecontainer {
+    width: 100%;
+}
+
+.codecontainer button {
+    width: 10%;
+    height: 30px;
+    background-color: rgb(48, 48, 48);
+    border: 1px groove rgb(220, 216, 216);
+    color: rgb(220, 216, 216);
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.codecontainer button:hover {
+    color: rgb(48, 48, 48);
+    background-color: rgb(220, 216, 216);
+}
+
+.editor {
+    margin: 10px 0;
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.editor label {
+    font-size: 1.2rem;
+}
+
+.editor textarea {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    resize: none;
+    margin: 10px 0;
+    color: rgb(220, 216, 216);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+}
+
+.result {
+    margin: 10px 0;
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.result label {
+    font-size: 1.2rem;
+}
+
+
+.result textarea {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    resize: none;
+    margin: 10px 0;
+    color: rgb(220, 216, 216);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+}

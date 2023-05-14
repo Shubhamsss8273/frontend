@@ -1,0 +1,138 @@
+.container {
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to right, black, #002f45);
+    min-height: 640px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.signup {
+    width: 40%;
+    height: 95%;
+    margin: auto;
+    background-image: linear-gradient(to left, black, #002f45);
+    border: 1px solid rgb(220, 216, 216);
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.signup h1 {
+    color: rgb(220, 216, 216);
+    font-weight: normal;
+    font-size: 2.5rem;
+    border-bottom: 1px groove rgb(220, 216, 216);
+    padding: 1.5rem 0;
+}
+
+.signup form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto 0 auto;
+    text-align: left;
+}
+
+.name {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.name input {
+    width: 45%;
+    background: transparent;
+    color: rgb(220, 216, 216);
+    height: 3rem;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px groove rgb(220, 216, 216);
+    font-size: 1.2rem;
+    padding: 0 10px;
+    outline: none;
+    border-radius: 20px;
+}
+
+.name .error{
+    color: red;
+    font-size: 1.1rem;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.input {
+    margin: 15px 0;
+}
+
+.input input {
+    width: 100%;
+    background: transparent;
+    color: rgb(220, 216, 216);
+    height: 3rem;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px groove rgb(220, 216, 216);
+    font-size: 1.2rem;
+    padding: 0 10px;
+    outline: none;
+    border-radius: 20px;
+}
+
+.input .error{
+    color: red;
+    font-size: 1.1rem;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.radiocontainer {
+    display: inline;
+    margin: 1em 2em 0 0.5em;
+    color: rgb(220, 216, 216);
+    font-size: 1.2em;
+}
+
+.radiocontainer input {
+    cursor: pointer;
+}
+
+.radiocontainer label {
+    cursor: pointer;
+}
+
+.signup form button {
+    font-family: 'Quicksand', sans-serif;
+    width: 60%;
+    height: 3rem;
+    margin: 1em 19% 0.5em 19%;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-image: linear-gradient(to right, black, #002f45);
+    color: rgb(220, 216, 216);
+    border: 1px solid rgb(220, 216, 216);
+}
+
+.signup form button:hover {
+    color: black;
+    background-color: rgb(220, 216, 216);
+    background-image: none;
+}
+
+.signup form button:disabled{
+    background-image: none;
+    background-color: rgb(47, 47, 47);
+    cursor: default;
+    color: rgb(146, 146, 146);
+}
+
+.signup p {
+    color: rgb(220, 216, 216);
+    font-size: 1.2rem;
+    margin-top: 0.5em;
+}
+
+.signup a {
+    text-decoration: none;
+    color: rgba(255, 255, 0, 0.795);
+    font-size: 1.2rem;
+}

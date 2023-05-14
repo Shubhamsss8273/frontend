@@ -1,0 +1,123 @@
+.createnote {
+    background-image: linear-gradient(to top, black, #002f45);
+    min-height: 640px;
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(220, 216, 216);
+}
+
+.formcontainer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.formcontainer h1 {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-weight: normal;
+    margin-bottom: 20px;
+    border: 2px groove rgb(164, 164, 164);
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #002f45, black, #002f45);
+}
+
+.formcontainer form {
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.title input {
+    margin-top: 2px;
+    width: 100%;
+    background: transparent;
+    background-color: #004667;
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: rgb(220, 216, 216);
+}
+
+.title input::placeholder{
+    color: rgba(255, 255, 0, 0.795);
+}
+
+.title p {
+    position: absolute;
+    margin: 2px 0 0 10px;
+    color: red;
+    font-size: 1rem;
+}
+
+.tags {
+    margin-bottom: 25px;
+}
+
+.tags input {
+    margin-top: 2px;
+    width: 100%;
+    background: transparent;
+    background-color: #004667;
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: rgb(220, 216, 216);
+}
+
+.tags input::placeholder{
+    color: rgba(255, 255, 0, 0.795);
+}
+
+.description {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.description textarea {
+    margin-top: 2px;
+    width: 100%;
+    background: transparent;
+    background-color: #004667;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: rgb(220, 216, 216);
+    resize: none;
+}
+
+.description textarea::placeholder{
+    color: rgba(255, 255, 0, 0.795);
+}
+
+.description p {
+    position: absolute;
+    margin: 2px 0 0 10px;
+    color: red;
+    font-size: 1rem;
+}
+
+.formcontainer form button {
+    width: 30%;
+    background-color: #002f45;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 2px groove rgb(220, 216, 216);
+    border-radius: 20px;
+    color: rgb(220, 216, 216);
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.formcontainer form button:hover {
+    background-color: #004667;
+}

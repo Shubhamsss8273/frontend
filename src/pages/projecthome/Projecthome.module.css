@@ -1,0 +1,124 @@
+.container {
+    height: 640px;
+    background-image: linear-gradient(to top, black, #002f45);
+    padding: 3rem 0 0 0;
+    color: rgb(220, 216, 216);
+}
+
+.container h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.projectContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    padding: 30px 0 0 0;
+    width: 60%;
+    margin: 80px auto 20px auto;
+}
+
+.projectDetails {
+    box-shadow: -5px -5px rgb(0, 0, 0);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #004667;
+    padding: 32px 2rem;
+    text-align: center;
+    width: 90%;
+}
+
+.projectDetails h3 {
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 0, 0.795);
+    font-size: 1.5rem;
+}
+
+.projectDetails p {
+    font-size: 1.1rem;
+}
+
+.projectDetails button {
+    width: 40%;
+    color: rgb(220, 216, 216);
+    font-size: 1rem;
+    padding: 10px;
+    background-color: #002a3a;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.projectDetails button:hover {
+    background-color: #151515;
+}
+
+.projectName {
+    padding: 20px;
+}
+
+.textUtilsButton {
+    transition: all 0.3s;
+    margin: 14px 0;
+    border: none;
+    background-color: #004667;
+    padding: 15px;
+    cursor: pointer;
+    color: rgb(220, 216, 216);
+    font-size: 1.3rem;
+    width: 80%;
+    text-align: center;
+    box-shadow: -5px -5px rgb(0, 0, 0);
+    word-break: break-all;
+    border-top-right-radius: 20px;
+}
+
+.textUtilsButton:hover {
+    background-color: #002f45;
+    transform: translateX(20px);
+}
+
+.onlineNotepadButton {
+    transition: all 0.3s;
+    margin: 14px 0;
+    border: none;
+    background-color: #004667;
+    padding: 15px;
+    cursor: pointer;
+    color: rgb(220, 216, 216);
+    font-size: 1.3rem;
+    width: 80%;
+    text-align: center;
+    box-shadow: -5px -5px rgb(0, 0, 0);
+    word-break: break-all;
+}
+
+.onlineNotepadButton:hover {
+    background-color: #002f45;
+    transform: translateX(20px);
+}
+
+.compilerButton {
+    transition: all 0.3s;
+    margin: 14px 0;
+    border: none;
+    background-color: #004667;
+    padding: 15px;
+    cursor: pointer;
+    color: rgb(220, 216, 216);
+    font-size: 1.3rem;
+    width: 80%;
+    text-align: center;
+    box-shadow: -5px -5px rgb(0, 0, 0);
+    border-bottom-right-radius: 20px;
+    word-break: break-all;
+}
+
+.compilerButton:hover {
+    background-color: #002f45;
+    transform: translateX(20px);
+}

@@ -1,0 +1,61 @@
+.card {
+    height: fit-content;
+    width: 20%;
+    border: 2px groove black;
+    margin: 40px 40px;
+    box-shadow: 2px 2px 4px 0 rgb(158, 158, 158);
+    background-color: rgba(0, 0, 0, 0.675);
+    border-radius: 10px;
+    padding: 20px 20px 10px 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.15);
+}
+
+.cardtitle {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 0, 0.795);
+    font-weight: normal;
+}
+
+.cardtag {
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.carddate {
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+.iconcontainer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconcontainer button {
+    width: 30%;
+    height: 25px;
+    background-color: black;
+    border: 1px groove rgb(220, 216, 216);
+    color: rgb(220, 216, 216);
+    border-radius: 3px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.iconcontainer button:hover {
+    color: rgb(48, 48, 48);
+    background-color: rgb(220, 216, 216);
+}
+
+.iconcontainer span {
+    margin: 0 2px;
+    cursor: pointer;
+}

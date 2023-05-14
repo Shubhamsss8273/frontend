@@ -1,0 +1,31 @@
+.error {
+    min-height: 640px;
+    background-image: linear-gradient(to top, black, #002f45);
+    padding: 10px;
+    color: rgb(220, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errormessage{
+    text-align: center;
+}
+
+.errormessage button {
+    width: 60%;
+    height: 60px;
+    margin: 20px 0;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, black, #002f45);
+    color: rgb(220, 216, 216);
+    border: 1px solid rgb(220, 216, 216);
+}
+
+.errormessage button:hover {
+    color: black;
+    background-color: rgb(220, 216, 216);
+    background-image: none;
+}

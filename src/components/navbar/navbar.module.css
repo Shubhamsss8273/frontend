@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(34, 34, 34);
+    height: 4.5rem;
+    border-bottom: 1px groove rgb(220, 216, 216);
+}
+
+.logocontainer {
+    display: flex;
+    align-items: center;
+    color: rgb(220, 216, 216);
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+.logocontainer img {
+    width: 8%;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 2px groove rgb(220, 216, 216);
+    cursor: pointer;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(229, 229, 229);
+    padding: 4px 0px;
+}
+
+.navbar nav ul li a:hover {
+    color: yellow;
+}

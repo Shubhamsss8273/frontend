@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  word-break: break-all;
+}
+
+.tippy-box[data-theme~='mywebsite'] {
+  background-color: rgb(220, 216, 216);
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.tippy-box[data-theme~='mywebsite'][data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: rgb(220, 216, 216);
+}
+.tippy-box[data-theme~='mywebsite'][data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: rgb(220, 216, 216);
+}
+.tippy-box[data-theme~='mywebsite'][data-placement^='left'] > .tippy-arrow::before {
+  border-left-color: rgb(220, 216, 216);
+}
+.tippy-box[data-theme~='mywebsite'][data-placement^='right'] > .tippy-arrow::before {
+  border-right-color: rgb(220, 216, 216);
+}

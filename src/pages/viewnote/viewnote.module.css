@@ -1,0 +1,94 @@
+.container {
+    background-image: linear-gradient(to top, black, #002f45);
+    min-height: 640px;
+    padding: 20px 0;
+    color: rgb(220, 216, 216);  
+}
+
+.textcontainer {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.title h1 {
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0 10px;
+    color: rgba(255, 255, 0, 0.795);
+}
+
+.title p {
+    text-align: left;
+    background-color: #004667;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px 0;
+    font-size: 1.1rem;
+    word-wrap: break-word;
+    height: 45px;
+}
+
+.tags {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.tags h1 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0 10px;
+    color: rgba(255, 255, 0, 0.795);
+}
+
+.tags p {
+    background-color: #004667;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px 0;
+    font-size: 1.1rem;
+    height: 45px;
+    word-wrap: break-word;
+}
+
+.description {
+    text-align: left;
+    margin: 20px 0;
+    min-height: 300px;
+}
+
+.description h1 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0 10px;
+    color: rgba(255, 255, 0, 0.795);
+}
+
+.description p {
+    background-color: #004667;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px 0;
+    font-size: 1.1rem;
+    min-height: 250px;
+    word-wrap: break-word;
+}
+
+.textcontainer button{
+    width: 30%;
+    background-image: linear-gradient(to bottom, black, #002f45);
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 1px groove rgb(220, 216, 216);
+    border-radius: 20px;
+    color: rgb(220, 216, 216);
+    cursor: pointer;
+    margin: 0 1.5rem;
+}
+
+.textcontainer button:hover{
+    background-image: none;
+    background-color: #004667;
+}

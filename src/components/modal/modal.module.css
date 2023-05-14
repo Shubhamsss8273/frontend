@@ -1,0 +1,74 @@
+.modalcontainer {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #002f4518;
+    backdrop-filter: saturate(100%) blur(10px);
+    overflow: auto;
+    display: block;
+}
+
+.modalcontent {
+    background-color: rgba(0, 0, 0, 0.811);
+    color: rgb(220, 216, 216);
+    margin:15% auto 0 auto;
+    width: 40%;
+    padding: 10px 10px 0 10px;
+    border: 2px groove rgb(220, 216, 216);
+    border-radius: 5px;
+    animation-name: animatezoom;
+    animation-duration: 0.2s;
+    box-shadow: 5px 5px 10px 0 rgb(87, 87, 87), -5px -5px 10px 0 rgb(87, 87, 87), 8px 8px 20px rgb(31, 31, 31), -8px -8px 20px rgb(31, 31, 31);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.modalcontent h1 {
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.modalcontent p{
+    font-weight: normal;
+    margin: 20px 0;
+    word-wrap: break-word;
+}
+
+.buttoncontainer{
+    position:relative;
+    bottom: 15px;
+    margin-top: 50px;
+}
+
+.buttoncontainer button{
+    font-family: 'Quicksand', sans-serif;
+    width: 20%;
+    height: 35px;
+    margin: 0 8%;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: black;
+    color: rgb(220, 216, 216);
+    border: 2px solid rgb(220, 216, 216);
+}  
+
+.buttoncontainer button:hover {
+    color: black;
+    background-color: #ffffffcc;
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0);
+        opacity: 0
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1
+    }
+}

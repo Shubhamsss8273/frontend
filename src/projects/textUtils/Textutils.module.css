@@ -1,0 +1,78 @@
+.container {
+    min-height: 640px;
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to right, black, #002f45);
+    color: rgb(220, 216, 216);
+    padding: 2rem 0;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgba(255, 255, 0, 0.795);
+}
+
+.textutils {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.left {
+    width: 45%;
+    height: 40%;
+}
+
+
+.left h2 {
+    color: rgba(220, 216, 216, 0.932);
+}
+
+
+.left textarea {
+    margin: 10px 0;
+    border: 2px groove rgb(220, 216, 216);
+    border-radius: 5px;
+    resize: none;
+    background-color: #00151f;
+    color: rgba(220, 216, 216, 0.932);
+    padding: 5px;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.left button {
+    font-family: 'Quicksand', sans-serif;
+    height: 2.2em;
+    padding: 5px;
+    margin: 5px 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 0.5em;
+    cursor: pointer;
+    background-color: #00151f;
+    color: rgba(220, 216, 216, 0.932);
+    border: 1px groove rgb(220, 216, 216);
+}
+
+.left button:hover {
+    color: black;
+    background-color: rgba(220, 216, 216, 0.932);
+}
+
+.left button:disabled {
+    color: rgba(113, 113, 113, 0.932);
+    background-color: #000f16;
+    border: 1px groove rgba(113, 113, 113, 0.932);
+    cursor: default;
+}
+
+.right {
+    width: 40%;
+}
+
+.right p {
+    margin: 10px 0;
+}

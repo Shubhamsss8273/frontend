@@ -1,0 +1,50 @@
+.listcontainer {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #003148;
+    color: rgb(220, 216, 216);
+    padding: 10px 1em;
+    border-radius: 10px;
+    border: 2px groove grey;
+}
+
+.listItem{
+    width: 15%;
+    text-align: left;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 8%;
+}
+
+.button {
+    width: 50%;
+}
+
+.button button {
+    width: 100%;
+    background-color: #005277;
+    padding: 3px 2px;
+    border: 2px groove rgb(220, 216, 216);
+    border-radius: 20px;
+    color: rgb(220, 216, 216);
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: #006898;
+}
+
+.icon{
+    margin: 0 2px;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+.homepage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('../../images/bg4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+}
+
+.left {
+    color: white;
+    height: 50%;
+}
+
+.left h1 {
+    color: rgb(220, 216, 216);
+    font-size: 3rem;
+}
+
+.left h1 span {
+    color: rgba(255, 255, 0, 0.795);
+}
+
+.left p {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    color: #ffffffcc;
+}
+
+.left p span {
+    font-weight: bold;
+    color: rgba(255, 255, 0, 0.795);
+}
+
+.left button {
+    width: 50%;
+    height: 40px;
+    margin: 1rem 0;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: linear-gradient(to left, black, #002f45);
+    color: rgb(220, 216, 216);
+    border: 1px solid rgb(220, 216, 216);
+}
+
+.left button:hover {
+    color: black;
+    background-color: #ffffffcc;
+    background-image: none;
+}
+
+.right {
+    width: 25%;
+}
+
+.right img {
+    width: 100%;
+    border-radius: 10%;
+}

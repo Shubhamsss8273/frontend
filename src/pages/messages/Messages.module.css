@@ -1,0 +1,13 @@
+.messageListContainer {
+    width: 100%;
+    min-height: 640px;
+    background-image: linear-gradient(to bottom, #002f45, black);
+    color: rgb(220, 216, 216);
+    padding: 10px;
+    text-align: center;
+}
+
+.messageListContainer h1{
+    font-weight: normal;
+    margin: 20px 0;
+}
