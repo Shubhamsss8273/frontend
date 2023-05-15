@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import styles from './Contact.module.css'
 import { TfiLinkedin, TfiInstagram, TfiEmail } from "react-icons/tfi";
 import { SlPhone } from "react-icons/sl";
+import { BsGithub } from "react-icons/bs";
 import useNetworkCall from '../../hooks/useNetworkCall';
 import Modal from '../../components/modal/Modal';
 import LoadingBar from 'react-top-loading-bar';
@@ -71,6 +72,7 @@ const Contact = () => {
                         <div className={styles.icons}>
                             <a href='https://linkedin.com/in/shubham-sharma-58006717a' target='_blank' rel="noreferrer" ><TfiLinkedin /></a>
                             <a href='https://instagram.com/shubhamsss8273' target='_blank' rel="noreferrer" ><TfiInstagram /></a>
+                            <a href='https://github.com/Shubhamsss8273' target='_blank' rel="noreferrer" ><BsGithub /></a>
                         </div>
                     </div>
                     <div className={styles.right}>
